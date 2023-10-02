@@ -82,5 +82,5 @@ $ terraform init
 4. Apply the Terraform configuration to AWS by running:
 
 ```bash
-$ terraform apply -var-file=dev.tfvars
+$ terraform apply -var-file=env/dev.tfvars
 ```
