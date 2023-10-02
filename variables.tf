@@ -1,6 +1,6 @@
 variable "tf_state_bucket_name" {
   description = "The name of the tf remote state bucket"
-  type = string
+  type        = string
 }
 
 variable "ec2_key_name" {
